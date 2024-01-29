@@ -5,29 +5,29 @@ import kotlin.random.Random
 fun main() {
     // Functions
     // Possible because they are in the same file
-//    helloWorld()
-//    lineFunction()
-//    println(sum())
-//    lineFunction()
-//    println(strConcat())
-//    lineFunction()
-//    val value = multiply()
-//    lineFunction()
-//    println("value = $value")
+    helloWorld()
+    lineFunction()
+    println(sum())
+    lineFunction()
+    println(strConcat())
+    lineFunction()
+    val value = multiply()
+    lineFunction()
+    println("value = $value")
     // subtraction() | Outside of main function scope (Only accessible inside multiply function scope)
-//    lineFunctionStrikeBack()
-//    ageVerification(15)
-//    lineFunction()
-//    multiParams(name = "Joseph", age = 25) // -> Kotlin named args | Can be reordered
-//    multiParams(18, "Jos") // Unnamed args
-//    loginVerification(age = 50, name = "Robert", isAdmin = true)
-//    loginVerification(age = 30, name = "Jen")
-//    lineFunctionStrikeBack()
-//    userRegistration("Daniel", 22)
-//    userRegistration("Gabriel", 23, true)
-//    userRegistration("Tiago", 30)
-//    userRegistration("Jefferson", 35)
-//    lineFunction()
+    lineFunctionStrikeBack()
+    ageVerification(15)
+    lineFunction()
+    multiParams(name = "Joseph", age = 25) // -> Kotlin named args | Can be reordered
+    multiParams(18, "Jos") // Unnamed args
+    loginVerification(age = 50, name = "Robert", isAdmin = true)
+    loginVerification(age = 30, name = "Jen")
+    lineFunctionStrikeBack()
+    userRegistration("Daniel", 22)
+    userRegistration("Gabriel", 23, true)
+    userRegistration("Tiago", 30)
+    userRegistration("Jefferson", 35)
+    lineFunction()
     guessTheRightNumber()
 }
 
