@@ -1,5 +1,4 @@
 import java.util.Scanner
-import kotlin.math.floor
 import kotlin.random.Random
 
 fun main() {
